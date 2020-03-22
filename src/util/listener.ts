@@ -1,0 +1,1 @@
+export type Listener<T> = (context: T) => void;
