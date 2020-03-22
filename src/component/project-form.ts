@@ -52,5 +52,4 @@ export class ProjectForm extends Component<HTMLFormElement, HTMLDivElement> {
 
         return [title, description, peopleCount];
     }
-
 }
