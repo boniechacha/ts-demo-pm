@@ -1,5 +1,5 @@
-import {State} from "./state.js";
-import {Project, Status} from "../domain/project.js";
+import {State} from "./state";
+import {Project, Status} from "../domain/project";
 
 export class ProjectState extends State<Project[]> {
     private projects: Map<string, Project>;

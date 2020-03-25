@@ -1,6 +1,6 @@
-import {ProjectForm} from "./component/project-form.js";
-import {ProjectList} from "./component/project-list.js";
-import {Status} from "./domain/project.js";
+import {ProjectForm} from "./component/project-form";
+import {ProjectList} from "./component/project-list";
+import {Status} from "./domain/project";
 
 let projectForm = new ProjectForm();
 projectForm.attach();
@@ -10,3 +10,4 @@ activeProjectsList.attach();
 
 let finishedProjectsList = new ProjectList(Status.FINISHED);
 finishedProjectsList.attach();
+

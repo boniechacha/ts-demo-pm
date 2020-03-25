@@ -1,8 +1,8 @@
 //project form
-import {Component} from "./component.js";
-import {ProjectState} from "../state/project-state.js";
-import {Project} from "../domain/project.js";
-import {validateNumber, validateString} from "../util/validation.js";
+import {Component} from "./component";
+import {ProjectState} from "../state/project-state";
+import {Project} from "../domain/project";
+import {validateNumber, validateString} from "../util/validation";
 
 export class ProjectForm extends Component<HTMLFormElement, HTMLDivElement> {
 

@@ -1,4 +1,4 @@
-import {Listener} from "../util/listener.js";
+import {Listener} from "../util/listener";
 
 export abstract class State<T> {
     private listeners: Listener<T>[];

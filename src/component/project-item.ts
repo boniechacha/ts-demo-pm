@@ -1,6 +1,6 @@
-import {Component} from "./component.js";
-import {Draggable, Dragger} from "./drag-drop.js";
-import {Project} from "../domain/project.js";
+import {Component} from "./component";
+import {Draggable, Dragger} from "./drag-drop";
+import {Project} from "../domain/project";
 
 export class ProjectItem extends Component<HTMLLIElement, HTMLUListElement> implements Draggable {
     private project: Project;
